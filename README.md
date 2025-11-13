@@ -1,44 +1,39 @@
-Arduino 3-Phase Inverter
-A compact three-phase inverter using Arduino Uno and power MOSFETs to convert 12V DC to three-phase AC power with 120° phase displacement.
+3-Phase Inverter - Arduino & MOSFET
+A 3-phase inverter that converts DC to AC power using Arduino and MOSFETs.
 
-🚀 Quick Overview
+Features
+Converts 12V DC to 3-phase AC
+
+120-degree phase displacement
+
+Square wave output (sine wave in development)
+
+Suitable for microgrid applications
+
+Components
+Arduino Uno
+
+Power MOSFETs (IRFZ44N)
+
+Step-up transformers
+
+12V battery
+
+220V bulbs for testing
+
+Specifications
 Input: 12V DC
 
-Output: 223V AC per phase (386V line-to-line)
+Output: 223V per phase, 386V line-to-line
 
 Power: 60W per phase (180W total)
 
-Controller: Arduino Uno R3
+18 MOSFETs used (6 per phase)
 
-Switching: 18 × IRFZ44N MOSFETs
+Current Status
+Working with square wave output
 
-Waveform: Square wave (sine wave improvement in progress)
-
-🔧 Key Features
-Three-phase output with 120° phase displacement
-
-PWM-controlled MOSFET switching
-
-Step-up transformers for voltage amplification
-
-Suitable for microgrid and renewable energy applications
-
-📁 Project Structure
-text
-3-phase-inverter/
-├── Hardware/          # Circuit schematics & PCB
-├── Software/          # Arduino code
-├── Documentation/     # Datasheets & calculations
-└── Simulation/        # Proteus files
-⚡ Current Improvement
-Converting square wave to pure sine wave output for better efficiency and reduced harmonics.
-
-🛠️ Components
-Arduino Uno R3
-
-IRFZ44N MOSFETs (18x)
-
-Center-tapped transformers (3x)
+Developing pure sine wave output for better efficiency
 
 12V Battery
 
