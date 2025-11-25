@@ -1,3 +1,5 @@
+
+![Project Banner]https://github.com/Bishalroybd/3-Phase-Inverter-/blob/e5204bd0e75abcd58879bc4980994277d1c293e0/files/Demo.jpg
 3-Phase Inverter - Arduino & MOSFET
 A 3-phase inverter that converts DC to AC power using Arduino and MOSFETs.
 
